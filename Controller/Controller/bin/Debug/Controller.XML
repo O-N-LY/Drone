@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Controller</name>
+    </assembly>
+    <members>
+        <member name="F:Controller.Camera.tarDevice">
+            <summary>
+            目标设备源
+            </summary>
+        </member>
+        <member name="F:Controller.Camera.writer">
+            <summary>
+            用于录制视频
+            </summary>
+        </member>
+        <member name="F:Controller.Camera.videoSourcePlayer">
+            <summary>
+            UI界面上的显示控件
+            </summary>
+        </member>
+        <member name="F:Controller.Camera._instance">
+            <summary>
+            静态单例
+            </summary>
+        </member>
+        <member name="F:Controller.Camera.SynObject">
+            <summary>
+            用于单例模式的同步检测
+            </summary>
+        </member>
+        <member name="M:Controller.Camera.#ctor">
+            <summary>
+            私有构造
+            </summary>
+        </member>
+        <member name="M:Controller.Camera.Init(AForge.Controls.VideoSourcePlayer,System.Windows.Forms.ComboBox)">
+            <summary>
+            初始化
+            设置UI控件，枚举视频输入设备。
+            </summary>
+            <param name="player"></param>
+        </member>
+        <member name="M:Controller.Camera.ConnectCamera">
+            <summary>
+            连接摄像头
+            </summary>
+        </member>
+        <member name="M:Controller.Camera.CloseCamera">
+            <summary>
+            关闭摄像头
+            </summary>
+        </member>
+        <member name="M:Controller.Camera.StartRecord(System.String)">
+            <summary>
+            开始视频录制
+            </summary>
+        </member>
+        <member name="M:Controller.Camera.VideoSourcePlayer_NewFrame(System.Object,System.Drawing.Bitmap@)">
+            <summary>
+            视频源有新的帧
+            </summary>
+            <param name="sender"></param>
+            <param name="image"></param>
+        </member>
+        <member name="M:Controller.Camera.StopRecord">
+            <summary>
+            停止录制视频
+            </summary>
+        </member>
+        <member name="P:Controller.Camera.Instance">
+            <summary>
+            获得该类的单例
+            </summary>
+        </member>
+        <member name="T:Controller.DRONE_PROPERTY">
+            <summary>
+            无人机属性
+            </summary>
+        </member>
+        <member name="F:Controller.Drone._instance">
+            <summary>
+            静态单例
+            </summary>
+        </member>
+        <member name="F:Controller.Drone.SynObject">
+            <summary>
+            用于单例模式的同步检测
+            </summary>
+        </member>
+        <member name="M:Controller.Drone.#ctor">
+            <summary>
+            私有构造
+            </summary>
+        </member>
+        <member name="F:Controller.Drone._ui">
+            <summary>
+            主窗口UI实例
+            </summary>
+        </member>
+        <member name="F:Controller.Drone._latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="F:Controller.Drone._longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="M:Controller.Drone.StartAutoRefresh(System.Double)">
+            <summary>
+            开启自动更新
+            </summary>
+            <param name="time">自动更新的频率 /ms</param>
+        </member>
+        <member name="M:Controller.Drone.AutoRefresh(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            与MissionPlanner通信，定时更新任务
+            </summary>
+            <param name="source"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.Drone.doRefresh">
+            <summary>
+            暂未使用，可以考虑将所有更新动作封装此处
+            </summary>
+        </member>
+        <member name="M:Controller.Drone.Move(GMap.NET.PointLatLng,System.Double)">
+            <summary>
+            以指定的高度，移动到给定经纬度所指示的目的地。
+            </summary>
+            <param name="des">目的地</param>
+            <param name="alt">高度</param>
+            <returns></returns>
+        </member>
+        <member name="P:Controller.Drone.Instance">
+            <summary>
+            获得该类的单例
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.IsBusy">
+            <summary>
+            无人机是否忙碌
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Destination">
+            <summary>
+            无人机的目的地
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.UI">
+            <summary>
+            MainForm的引用，用来更新UI元素
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Position">
+            <summary>
+            将经纬度封装为 GMap 可以直接接受的属性
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Speed">
+            <summary>
+            速度
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Altitude">
+            <summary>
+            高度
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Direction">
+            <summary>
+            方向
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Horizon">
+            <summary>
+            水平
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Battery">
+            <summary>
+            电量，0-1之间
+            </summary>
+        </member>
+        <member name="P:Controller.Drone.Other">
+            <summary>
+            未定，其他信息
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.overlayOne">
+            <summary>
+            地图上地标等物体的存放面板
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.downpoint">
+            <summary>
+            鼠标按下时记录其代表的经纬度
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.uppoint">
+            <summary>
+            鼠标松开时记录其代表的经纬度
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.homepoint">
+            <summary>
+            返航点
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.bDraw">
+            <summary>
+            拖动画图时
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.isMouseDown">
+            <summary>
+            鼠标左键按下判断
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.Pathes">
+            <summary>
+            巡航路径
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.Range">
+            <summary>
+            巡航边角， 目前是矩形四个顶点
+            </summary>
+        </member>
+        <member name="F:Controller.MainForm.CurrentLocationIdx">
+            <summary>
+            当前所处的路径点，得到路径后设置为-1;每到达一个路径点后更新
+            </summary>
+        </member>
+        <member name="M:Controller.MainForm.InitMap(System.Object,System.EventArgs)">
+            <summary>
+            设置 GMap 控件的初始属性，在控件载入时执行
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.OnZoomChanged">
+            <summary>
+            地图缩放时执行
+            </summary>
+        </member>
+        <member name="M:Controller.MainForm.OnMouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            此处用于记录鼠标左键的动作，绘制地标或矩形
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.OnMouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            当鼠标移动且左键按下时，画框
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.UpdateUI(Controller.DRONE_PROPERTY)">
+            <summary>
+            UI数据应与Drone保持一致，该函数被Drone用来更新UI。不需直接调用
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:Controller.MainForm.OnClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            程序关闭时，释放各种资源
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnconnect_Click(System.Object,System.EventArgs)">
+            <summary>
+            打开或者关闭摄像头连接
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnrecord_Click(System.Object,System.EventArgs)">
+            <summary>
+            打开或者关闭摄像头录制
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.OnCamInputChanged(System.Object,System.EventArgs)">
+            <summary>
+            摄像头输入源发生改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnclear_Click(System.Object,System.EventArgs)">
+            <summary>
+            清空地图上的各种标记
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btncenter_Click(System.Object,System.EventArgs)">
+            <summary>
+            将无人机置于地图中间
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnscan_Click(System.Object,System.EventArgs)">
+            <summary>
+            遍历开始
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnpath_Click(System.Object,System.EventArgs)">
+            <summary>
+            生成路径点
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnimg_Click(System.Object,System.EventArgs)">
+            <summary>
+            选择物体图片
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnrange_Click(System.Object,System.EventArgs)">
+            <summary>
+            确定遍历范围
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btntest1_Click(System.Object,System.EventArgs)">
+            <summary>
+            测试用
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnback_Click(System.Object,System.EventArgs)">
+            <summary>
+            命令无人机飞回(若未通过MissionPlanner更改，初始为起飞点)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnlaunch_Click(System.Object,System.EventArgs)">
+            <summary>
+            降落
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btnnext_Click(System.Object,System.EventArgs)">
+            <summary>
+            飞到下一个路径点
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.mapprovider_changed(System.Object,System.EventArgs)">
+            <summary>
+            更换地图源
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Controller.MainForm.btncache_Click(System.Object,System.EventArgs)">
+            <summary>
+            手动缓存地图
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Controller.MainForm.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:Controller.MainForm.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:Controller.MainForm.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:Controller.MainForm.UnixTimeStamp">
+            <summary>
+            得到时间戳。但是遇见过卡在此处的现象，不建议使用
+            </summary>
+        </member>
+        <member name="T:Controller.PathPlanner">
+            <summary>
+            该类用于生成巡航路径
+            </summary>
+        </member>
+        <member name="M:Controller.PathPlanner.ConvertBack2PointLatLng(System.Double,System.Double,System.Double,System.Double,GMap.NET.PointLatLng)">
+            <summary>
+            将转化后矩形内的点，映射到经纬度坐标上
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.PathPlanner.MakePathPlan(GMap.NET.PointLatLng,System.Collections.Generic.List{GMap.NET.PointLatLng},System.Double,System.Double)">
+            <summary>
+            生成路径点
+            </summary>
+            <param name="current">无人机当前点 </param>
+            <param name="vertexes">待巡航范围的顶点集合，目前应该是矩形的四个顶点</param>
+            <param name="width">摄像机的画面宽度</param>
+            <param name="height">摄像机的画面高度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:Controller.RPCClient">
+            <summary>
+            用来控制远程调用的客户端代理
+            </summary>
+        </member>
+        <member name="F:Controller.RPCClient._instance">
+            <summary>
+            静态单例
+            </summary>
+        </member>
+        <member name="F:Controller.RPCClient.SynObject">
+            <summary>
+            用于单例模式的同步检测
+            </summary>
+        </member>
+        <member name="M:Controller.RPCClient.#ctor">
+            <summary>
+            私有构造
+            </summary>
+        </member>
+        <member name="P:Controller.RPCClient.Instance">
+            <summary>
+            获得该类的单例
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.alt">
+            <summary>
+            飞行高度
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.cam_width">
+            <summary>
+            摄像机的宽
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.cam_height">
+            <summary>
+            摄像机的高
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.refresh_frequency">
+            <summary>
+            无人机跟新数据的频率
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.dis_toleration">
+            <summary>
+            无人机与目标之间的距离误差容忍度
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.dis_detect_frequcncy">
+            <summary>
+            无人机飞行时检查与目标之间的距离的频率
+            </summary>
+        </member>
+        <member name="F:Controller.Utility.StartPoint">
+            <summary>
+            手动设置的地图起始中心点。
+            </summary>
+        </member>
+        <member name="M:Controller.Utility.CreateTask(System.String,System.Double,System.Timers.ElapsedEventHandler)">
+            <summary>
+            创建制定周期，制定处理事件的定时任务
+            </summary>
+            <param name="interval">间隔事件的周期 ms</param>
+            <param name="handler">用来指定的动作</param>
+        </member>
+        <member name="M:Controller.Utility.CloseTask(System.String)">
+            <summary>
+            关闭指定的定时任务
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:Controller.Utility.CloseAllTasks">
+            <summary>
+            关闭所有的定时任务
+            </summary>
+        </member>
+        <member name="M:Controller.Utility.Radians(System.Double)">
+            <summary>
+            将角度转化为弧度
+            </summary>
+            <param name="degrees">角度</param>
+            <returns>弧度</returns>
+        </member>
+        <member name="M:Controller.Utility.CalGPSDistance(GMap.NET.PointLatLng,GMap.NET.PointLatLng)">
+            <summary>
+            计算以经纬度表示的两个点的距离
+            </summary>
+            <param name="p1">点1</param>
+            <param name="p2">点2</param>
+            <returns>距离</returns>
+        </member>
+        <member name="M:Controller.Utility.CalEuclideanDistance(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            计算简单的欧氏距离
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Utility.CalRotateAngle(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            计算旋转角
+            </summary>
+            <param name="old_vx"></param>
+            <param name="old_vy"></param>
+            <param name="new_vx"></param>
+            <param name="new_vy"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Utility.isReachable(System.String,System.Int32)">
+            <summary>
+            //预先判断目标端口是否可达
+            </summary>
+            <param name="serveraddr"></param>
+            <param name="port"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Controller.Properties.Resources">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:Controller.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Controller.Properties.Resources.Culture">
+            <summary>
+              覆盖当前线程的 CurrentUICulture 属性
+              使用此强类型的资源类的资源查找。
+            </summary>
+        </member>
+    </members>
+</doc>

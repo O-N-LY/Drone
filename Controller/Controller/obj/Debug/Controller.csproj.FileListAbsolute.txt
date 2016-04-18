@@ -1,0 +1,82 @@
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMapTest.exe.config
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMapTest.exe
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMapTest.pdb
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMap.NET.Core.dll
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMap.NET.WindowsForms.dll
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\System.Data.SqlServerCe.dll
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMap.NET.Core.pdb
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\GMap.NET.WindowsForms.pdb
+G:\workspace\drone\DroneController\Controller\GMapTest\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+G:\workspace\drone\DroneController\Controller\GMapTest\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+G:\workspace\drone\DroneController\Controller\GMapTest\obj\Debug\GMapTest.MainForm.resources
+G:\workspace\drone\DroneController\Controller\GMapTest\obj\Debug\GMapTest.Properties.Resources.resources
+G:\workspace\drone\DroneController\Controller\GMapTest\obj\Debug\Controller.csproj.GenerateResource.Cache
+G:\workspace\drone\DroneController\Controller\GMapTest\obj\Debug\GMapTest.exe
+G:\workspace\drone\DroneController\Controller\GMapTest\obj\Debug\GMapTest.pdb
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\Controller.exe.config
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\Controller.exe
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\Controller.pdb
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\GMap.NET.Core.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\GMap.NET.WindowsForms.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\System.Data.SqlServerCe.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\GMap.NET.Core.pdb
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\GMap.NET.WindowsForms.pdb
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+G:\workspace\drone\DroneController\Controller\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+G:\workspace\drone\DroneController\Controller\Controller\obj\Debug\Controller.Properties.Resources.resources
+G:\workspace\drone\DroneController\Controller\Controller\obj\Debug\Controller.csproj.GenerateResource.Cache
+G:\workspace\drone\DroneController\Controller\Controller\obj\Debug\Controller.exe
+G:\workspace\drone\DroneController\Controller\Controller\obj\Debug\Controller.pdb
+G:\workspace\drone\DroneController\Controller\Controller\obj\Debug\Controller.MainForm.resources
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\AForge.Controls.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\AForge.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\AForge.Imaging.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\AForge.Video.DirectShow.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\AForge.Video.dll
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\AForge.Video.FFMPEG.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\Controller.exe.config
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\obj\Debug\Controller.exe
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\obj\Debug\Controller.pdb
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\Controller.exe
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\Controller.pdb
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\AForge.Controls.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\AForge.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\AForge.Imaging.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\AForge.Video.DirectShow.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\AForge.Video.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\AForge.Video.FFMPEG.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\GMap.NET.Core.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\GMap.NET.WindowsForms.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\System.Data.SqlServerCe.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\GMap.NET.Core.pdb
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\GMap.NET.WindowsForms.pdb
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\obj\Debug\Controller.MainForm.resources
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\obj\Debug\Controller.Properties.Resources.resources
+G:\workspace\drone\DroneController\Controller - 副本 (2)\Controller\obj\Debug\Controller.csproj.GenerateResource.Cache
+G:\workspace\drone\DroneController\Controller\Controller\bin\Debug\Controller.XML
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\Controller.exe.config
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\Controller.XML
+C:\迅雷下载\drone\Controller\Controller\obj\Debug\Controller.exe
+C:\迅雷下载\drone\Controller\Controller\obj\Debug\Controller.pdb
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\Controller.exe
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\Controller.pdb
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\AForge.Controls.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\AForge.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\AForge.Imaging.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\AForge.Video.DirectShow.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\AForge.Video.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\AForge.Video.FFMPEG.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\GMap.NET.Core.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\GMap.NET.WindowsForms.dll
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\GMap.NET.Core.pdb
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\GMap.NET.WindowsForms.pdb
+C:\迅雷下载\drone\Controller\Controller\bin\Debug\zh-Hans\GMap.NET.Core.resources.dll
+C:\迅雷下载\drone\Controller\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\迅雷下载\drone\Controller\Controller\obj\Debug\Controller.MainForm.resources
+C:\迅雷下载\drone\Controller\Controller\obj\Debug\Controller.Properties.Resources.resources
+C:\迅雷下载\drone\Controller\Controller\obj\Debug\Controller.csproj.GenerateResource.Cache
